@@ -3,11 +3,12 @@ import styles from "./page.module.css";
 import Categories from "./ui/catrgories";
 
 export default async function Home() {
-  return (
+  return (<>
+    <h1>Encycl</h1>
     <main className={styles.main}>
       <div className={styles.description}>
         <Categories/>
       </div>
     </main>
-  );
+  </>);
 }
