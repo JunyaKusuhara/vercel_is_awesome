@@ -1,10 +1,10 @@
 import {fetchCategories} from "../lib/data";
 
 export default async function Categories() {
-  //const categories = await fetchCategories();
-  //const data = categories.map(cate => <div key={cate}><p>{cate}</p></div>);
+  const categories = await fetchCategories();
+  const data = categories.map(cate => <div key={cate}><p>{cate}</p></div>);
 
   return (
-    <div>1</ div>
+    <div>{data}</ div>
   );
 }
