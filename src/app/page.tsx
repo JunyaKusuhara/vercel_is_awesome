@@ -6,7 +6,7 @@ export default async function Home() {
   return (<>
     <h1>Encycl</h1>
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div className={styles.card}>
         <Categories/>
       </div>
     </main>
